@@ -1,10 +1,8 @@
 import { React, useState, useEffect } from "react";
-import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
-import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
-import { Switch, FormControlLabel } from "@mui/material";
+
 import {
   createTheme,
   ThemeProvider,
@@ -14,8 +12,7 @@ import {
 } from "@mui/material";
 import Nav from "./Nav";
 
-
-const NavBar = () => {
+const Home = () => {
   const [amount, setAmount] = useState("");
   const [interest, setInterest] = useState("");
   const [term, setTerm] = useState("");
@@ -123,4 +120,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Home;

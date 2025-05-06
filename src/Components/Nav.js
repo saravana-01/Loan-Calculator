@@ -33,9 +33,9 @@ const Nav = () => {
                  <Button color="inherit" variant="pl-4" onClick={()=>navigate('/')}>
                    Home
                  </Button>
-                 <Button color="inherit">Exhange Rates(Live)</Button>
+                 <Button color="inherit" onClick={()=>navigate('/exchange')}>Exhange Rates(Live)</Button>
                  <Button color="inherit" onClick={() => navigate("/about")}>About</Button>
-                 <Button color="inherit">Error page</Button>
+                 <Button color="inherit" onClick={() => navigate("*")}>Error page</Button>
                  <FormControlLabel
                    control={
                      <Switch
