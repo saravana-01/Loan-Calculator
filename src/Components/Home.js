@@ -112,7 +112,7 @@ const Home = () => {
         </Button>
         {monthlyPayment && (
           <Box sx={{ display: "flex", gap: 3, flexWrap: "wrap", mt: 2 }}>
-            <Typography>Monthly EMI: ${monthlyPayment}</Typography>
+            <Typography>Monthly EMI:{monthlyPayment}</Typography>
           </Box>
         )}
       </Container>
